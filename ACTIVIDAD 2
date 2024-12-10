@@ -1,17 +1,39 @@
 <html>
 <head>
-
+<meta charse="utf-8">
+<title> Practica HTML 1</title>
+<style>
+   body{
+        border:5px soild darkblue;
+	margin: 15px 10px  6px;
+        padding: 6px;
+	    }
+   h1{
+	front-family:sans-serif;
+        color:red;
+	  }
+	.verde{color:darkgreen; font-weight:bold;}
+	#container{
+        border:5px soild black;}
+   ul{color:purple;}
+   h3{font-family:monospace;
+	 color:red;
+</style>	  
 </head>
 <body>
-<h1>Mi Primera Pagina Web</h1>
-<p>
+<div id="container">
+<h1>Mi Primera Página Web</h1>
+<p>Después de haber entendido los rudimentos del lenguaje HTML, estoy en condiciones de construir una pagina web
+sencilla, pero <span class="verde">perfectamente operativa</span>
 </p>
+<br>
 <h3>¡Tal vez hasta me pase...!</h3>
 <p></p>
 <ul>
-<li>
-...
-...
-
+<li>Controlar el tipo de letra</li>
+<li>Controlar el tamaño de letras</li>
+<li>Controlar el color de las letras</li>
+<li>Controlar los saltos de línea</li>
+<li>Controlar la apaiencia de las letras: negrita, cursiva, subrayado, superindice y subindice.</li>
 </body>
 </html>
